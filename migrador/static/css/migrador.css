@@ -1,0 +1,22 @@
+//FOLHA DE ESTILOS DA APLICAÇÃO
+* {margin: 0; padding:0; text-decoration: none;}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+menu {
+	padding: 15px;
+	margin: 0 auto;
+}
+
+
+ul, li{
+	display: block;
+	padding: 10px;
+}

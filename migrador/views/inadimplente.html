@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+	
+{% block content %}
+	<div class="form">
+		<h1>Inadimplência</h1>
+		<form method="POST" enctype="multipart/form-data" action="/cad_inadimplente" accept-charset="ANSI" method="POST">
+			<input type="text" size="25" placeholder="Nome do Condomínio" name="nome_condominio" autofocus required>
+			<br>
+			<input type="checkbox" name="subsequente" value="checked">Subsequente?
+			<br>
+			<input type="file" name="arquivo_xls" required>
+			<br>
+			<input type="submit" name="enviar" value="Enviar">
+		</form>
+	</div>
+{% endblock %}
